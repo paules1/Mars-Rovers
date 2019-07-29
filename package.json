@@ -1,0 +1,37 @@
+{
+  "name": "mars-rovers",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

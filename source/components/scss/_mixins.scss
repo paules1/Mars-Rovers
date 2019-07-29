@@ -1,0 +1,32 @@
+@import "./_colors";
+
+@mixin noBorder() {
+    outline: 0;
+    border: none;
+}
+
+@mixin inputIconLeft() {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+@mixin placeholderStyle($color, $op) {
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $color;
+        opacity: $op; /* Firefox */
+      }      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $color;
+      }      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: $color;
+      }
+}
+
+@mixin boxBorder() {
+    border: 1px solid $lightGrey;
+}
+@mixin boxShadow() {
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
